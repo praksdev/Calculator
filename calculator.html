@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="Styles/calculator.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div>
+        <Label class="Lbl">Simple Calculator</Label>
+        <div id="calc" class="Calculator">
+            <div class="Result">
+                <div id="eq" class="Expression"></div>
+                <div id="currNumber" class="ResultInput">0</div>
+            </div>
+            <div>
+                <span class="Button">7</span>
+                <span class="Button">8</span>
+                <span class="Button">9</span>   
+                <span class="Button">/</span>        
+                <span class="Button Dblrow">C</span>
+            </div>
+            <div>
+                <span class="Button">4</span>
+                <span class="Button">5</span>
+                <span class="Button">6</span> 
+                <span class="Button">*</span>           
+            </div>
+            <div>
+                <span class="Button">1</span>
+                <span class="Button">2</span>
+                <span class="Button">3</span>
+                <span class="Button">-</span>            
+                <span class="Button Dblrow">=</span>
+            </div>
+            <div>
+                <span class="Button Dblcol">0</span>
+                <span class="Button">.</span>
+                <span class="Button">+</span>            
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/calculator.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var eql = document.getElementById('eq');
+            var currNumber = document.getElementById('currNumber');
+            var calKeys = document.getElementById("calc").querySelectorAll("span.Button");
+            calculator.init(eql, currNumber, calKeys);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+.Lbl {
+    font-size: 25pt;
+    font-family: Verdana;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Calculator {
+    width:235px;
+    height:194px;
+    box-shadow:3px 3px 2px 0px #d4d4d4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Result {
+    width: 233px;  
+    border: 1px solid #d4d4d4;
+    border-radius:4px;  
+}
+
+.Expression {
+    font-size: 8pt;
+    font-family: Verdana;
+    height: 15px;
+    text-align: right;
+    background-color: #efefef;
+}
+
+.ResultInput {
+    height: 38px;
+    font-size: 26px;
+    background-color: #efefef;
+    text-align:right;
+    vertical-align: middle;
+    margin-right: 2px;
+    word-wrap: break-word;
+}
+
+.Button {
+    float:right;
+    width:35px;
+    font-family: Verdana;
+    font-weight:bold;
+    font-size:14pt;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+    background-color: #448ff2;
+}
+
+.Button:hover { 
+    background-color: #efefef;
+}
+
+.Dblcol {
+    width:82px;
+}
+
+.Dblrow {
+    height: 58px;
+    float:left;
+    line-height: 3em;
+}
